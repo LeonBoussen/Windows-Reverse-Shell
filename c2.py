@@ -1,6 +1,7 @@
 import socket
 
-LISTEN_IP = "192.168.1.5"
+# Your ip address & Port
+LISTEN_IP = "192.168.1.1"
 LISTEN_PORT = 4444
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
